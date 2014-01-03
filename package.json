@@ -1,0 +1,42 @@
+{
+  "name": "generator-mama",
+  "version": "0.0.0",
+  "description": "A stupid little Yeoman generator for telling \"Yo Mama\" jokes",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/doowb/generator-mama",
+  "bugs": "https://github.com/doowb/generator-mama/issues",
+  "author": {
+    "name": "Brian Woodward",
+    "email": "brian.woodward@gmail.com",
+    "url": "https://github.com/doowb"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doowb/generator-mama.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
